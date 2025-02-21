@@ -9,7 +9,7 @@ def main():
     #link_txt = "https://drive.google.com/file/d/1YjPaHv8aAVsXNzhHxum5gyUDFfY5iw1_/view?usp=drive_link"
     link_txt = "https://drive.google.com/file/d/17KOe8bJvHDceTpGZ9ru1YvjlROIMWhZ3/view?usp=drive_link"
     file_txt = 'dataset/entrada.txt'
-    #download_dataset(link_txt,file_txt)
+    download_dataset(link_txt,file_txt)
 
     # Preencher a matriz de contratos
     m, n, t, matriz = preencher_matriz_contratos(file_txt)
