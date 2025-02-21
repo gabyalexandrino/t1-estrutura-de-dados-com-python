@@ -88,7 +88,7 @@ def preencher_matriz_contratos(nome_arquivo: str):
             matriz_fornecedores[fornecedor].append(linha_convertida)
         
         # Inicializa a matriz final com infinito (float('inf')) como valor padrão
-        # A matriz terá dimensões: (número de fornecedores) x (tamanho + 1) x (tamanho + 1)
+        # A matriz terá dimensões: (número de fornecedores + 1) x (tamanho + 1) x (tamanho + 1)
         matriz = [[[float('inf') for _ in range(tamanho + 1)] for _ in range(tamanho + 1)] for _ in range(len(matriz_fornecedores))]
         
         # Preenche a matriz com os valores dos contratos
