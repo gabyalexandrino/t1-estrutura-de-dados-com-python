@@ -16,7 +16,7 @@ def main():
     
     # Imprimir os resultados
     print(m, n, t, "\n")
-    #imprimir_matriz(matriz)
+    imprimir_matriz(matriz)
 
     # Exportar a matriz de contratos
     file_csv = "resultados/contratos.csv"
